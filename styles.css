@@ -39,7 +39,7 @@ h2 {
   margin-top: 50px;
 }
 
-.links {
+.text-box {
   text-align: center;
 }
 
@@ -48,6 +48,10 @@ a {
   color: var(--black);
   margin: 15px;
   font-weight: bold;
+}
+
+a:hover {
+  color: var(--green);
 }
 
 p {
@@ -61,6 +65,10 @@ h3 {
 }
 
 @media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 48px;
+  }
+
   p {
     margin: 20px 150px 20px 150px;
   }
